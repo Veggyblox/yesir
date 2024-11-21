@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>JS</title>
+
+</head>
+
+<body>
+    <button onclick="createAccount()"> Create Account </button>
+    <button onclick="withdrawMoney ( ) "> Withdraw Money </button>
+    <script>
+        //function declaration
+        function createAccount() {
+            var accountname = "Mihir vartakI; // string datatype
+            var accountNo = 1234567;
+            // Integer datatype
+            var Amount = 20000000.568;
+            //floating-point datatype
+            document.write("Account Name: ", accountname);
+            document.write("Account No: ", accountNo);
+            document.write("your current balacne is: ", Amount);
+        }
+        function withdrawMoney() {
+            Amount = 20000000.568;
+            withdrawmoney = 40000;
+            currentAmount = Amount - withdrawmoney;
+            document.write("Your account number has been debited with $5. Available balance is: ",
+                currentAmount);
+
+        }
+    </script>
+</body>
+
+</html>
